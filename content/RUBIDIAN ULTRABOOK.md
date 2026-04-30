@@ -29,8 +29,8 @@ publish: true
 
 ---
 
-|    제품군     |                                모델                                |          비고          |
-| :--------: | :--------------------------------------------------------------: | :------------------: |
+|      제품군       |                                모델                                |          비고          |
+| :------------: | :--------------------------------------------------------------: | :------------------: |
 | **무선 네트워크 모듈** |                   AMD Wi-Fi 7 / Bluetooth 5.4                    |          -           |
 |   **디스플레이**    |        16” Dynamic AMOLED 2X Touch 2880x1800 16:10 120Hz         |          -           |
 |    **키보드**     | Built-in Full Size Keyboard with Per-Key Backlight & Copilot Key | US International ISO |
@@ -47,7 +47,7 @@ publish: true
 
 |        분류군        |                                        소프트웨어                                        |    라이선스     |      패키지 원본       | 비고  |
 | :---------------: | :---------------------------------------------------------------------------------: | :---------: | :---------------: | :-: |
-|     **운영체제**      |                                Microsoft Windows 11                                 | Windows Pro |        OEM        |  -  |
+|     **운영체제**      |                                Microsoft Windows 11                                 | Windows Pro |   Pre-installed   |  -  |
 |    **칩셋 드라이버**    | Intel Chipset Driver<br>Intel Management Engine Interface<br>Intel Serial IO Driver |      -      |  Samsung Update   |  -  |
 |   **그래픽 드라이버**    |             Intel Arc Graphics Driver<br>Intel Graphics Command Center              |      -      |  Samsung Update   |  -  |
 |    **관리 드라이버**    |                       Samsung Settings<br>Samsung Device Care                       |      -      |  Samsung Update   |  -  |
@@ -89,7 +89,7 @@ publish: true
 
 |      분류군      |           소프트웨어           |             라이선스              |      패키지 원본       |                   비고                    |
 | :-----------: | :-----------------------: | :---------------------------: | :---------------: | :-------------------------------------: |
-|  **워드프로세서**   |    Microsoft Word 2026    |     Microsoft 365 Premium     |     Official      |                    -                    |
+|  **워드프로세서**   |    Microsoft Word 2026    |     Microsoft 365 Premium     | Official Homepage |                    -                    |
 |               |    Hancom Hangul 2024     |          Hancom Docs          |     Homepage      |                    -                    |
 |  **프레젠테이션**   | Microsoft PowerPoint 2026 |     Microsoft 365 Premium     | Official Homepage |                    -                    |
 |  **스프레드시트**   |   Microsoft Excel 2026    |     Microsoft 365 Premium     | Official Homepage |                    -                    |
@@ -98,7 +98,7 @@ publish: true
 |  **협업 프로젝트**  |          Notion           |          Notion Plus          |       Scoop       |                    -                    |
 | **메일 클라이언트**  |          Outlook          |     Microsoft 365 Premium     | Official Homepage |                    -                    |
 | **클라우드 스토리지** |          DropBox          |    DropBox Essentials 3TB     |       Scoop       | 파일 공유 & 동기화, 오피스 작업용<br>파일 저장 및 백업은 NAS |
-|               |       Google Drive        |        Google AI ULTRA        |      Winget       |   갤러리 동기화, 외부 협업용<br>미디어는 NAS에 추가 백업    |
+|               |       Google Drive        |        Google AI Ultra        |      Winget       |   갤러리 동기화, 외부 협업용<br>미디어는 NAS에 추가 백업    |
 |  **AI 서비스**   |          ChatGPT          |          ChatGPT Pro          |      Winget       |                    -                    |
 |               |          Claude           |          Claude Max           |       Scoop       |                    -                    |
 |               |          Gemini           |        Google AI Ultra        |    Vivaldi PWA    |                    -                    |
@@ -121,21 +121,85 @@ publish: true
 
 ---
 
-|       분류군        |              소프트웨어               |            라이선스             |      패키지 원본       |                                                                                 비고                                                                                  |
-| :--------------: | :------------------------------: | :-------------------------: | :---------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|    **단순 메모장**    |             Notepads             |              -              |       Scoop       |                                                                                  -                                                                                  |
-|   **마크다운 편집기**   |              Typora              |         Typora EULA         |       Scoop       |                                                                          단일 파일 마크다운 파일 편집                                                                           |
-| **개인 지식 관리 시스템** |             Obsidian             |              -              |       Scoop       | 지식 관리 시스템 구축<br>Self-hosted Live Sync Plugin를 통해 NAS Container 동기화<br>Quartz와 GitHub & Vercel 를 통해 정적 웹 게시<br>Obsidian-Remote NAS Container Package를 통해 외부 환경 웹 액세스 |
-|   **텍스트 편집기**    |            Notepad++             |              -              |       Scoop       |                                                                      대용량 텍스트 파일 분석 및 단순 텍스트 수정                                                                      |
-|    **코드 에디터**    |        Visual Studio Code        |              -              |       Scoop       |                                                   LaTeX 편집 (LaTeX Workshop Extension)<br>포맷팅 및 스크립팅<br>SSH 원격 접속                                                    |
-|   **통합 개발 환경**   |        Visual Studio IDE         | Visual Studio Professional  |      Winget       |                                                             C / C++ | Windows App | Native Programing                                                             |
-|                  |         JetBrains Rider          | JetBrains All Products Pack | JetBrains Toolbox |                                                               C# / F# | Game Engine | .NET Backend                                                                |
-|                  |       JetBrains RustRover        | JetBrains All Products Pack | JetBrains Toolbox |                                                           Pure Rust | Rust Backend | System Programing                                                            |
-|                  | JetBrains IntelliJ IDEA Ultimate | JetBrains All Products Pack | JetBrains Toolbox |                   Java / Kotlin | JVM Backend <br>Pure Python | Python Backend | Data Analysis | AI Model Training<br>JS / TS | Web Frontend                   |
-|  **IDE 설치 관리**   |        JetBrains Toolbox         |              -              |      Winget       |                                                                                  -                                                                                  |
-|   **LaTeX 엔진**   |             TeX Live             |              -              |       Scoop       |                                                                                  -                                                                                  |
-|  **데이터베이스 관리**   |             Navicat              |       Navicat Premium       |       Scoop       |                                                                             종합 설계 및 관리                                                                              |
-|                  |    JetBrains IDE 내장 DataGrip     | JetBrains All Products Pack |      Module       |                                                                            개발 단계 조회 및 확인                                                                            |
-|   **버전 관리 엔진**   |               Git                |              -              |       Scoop       |                                                                                  -                                                                                  |
-| **버전 관리 클라이언트**  |            GitKraken             |        GitKraken Pro        |       Scoop       |                                                                          메인 레포지토리 / 브랜치 관리                                                                          |
-|                  |     IDE 내장 및 VS Code 확장 Git      |              -              |      Module       |                                                                        단순 커밋 / 푸시 및 수정 이력 확인                                                                        |
+|       분류군        |              소프트웨어               |            라이선스             |      패키지 원본       |                                                                                             비고                                                                                             |
+| :--------------: | :------------------------------: | :-------------------------: | :---------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|    **단순 메모장**    |             Notepads             |              -              |       Scoop       |                                                                                             -                                                                                              |
+|   **마크다운 편집기**   |              Typora              |         Typora EULA         |       Scoop       |                                                                              단일 파일 마크다운 파일 편집 및 텍스트 기반 문서 작업                                                                               |
+| **개인 지식 관리 시스템** |             Obsidian             |              -              |       Scoop       | 지식 관리 시스템 구축<br>Self-hosted Live Sync Plugin를 통해 NAS Container 동기화<br>Quartz & Quartz Syncer Plugin과 GitHub & Vercel 를 통해 정적 웹 게시<br>Obsidian-Remote NAS Container Package를 통해 외부 환경 웹 액세스 |
+|   **텍스트 편집기**    |            Notepad++             |              -              |       Scoop       |                                                                                 대용량 텍스트 파일 분석 및 단순 텍스트 수정                                                                                  |
+|    **코드 에디터**    |        Visual Studio Code        |              -              |       Scoop       |                                                               LaTeX 편집 (LaTeX Workshop Extension)<br>포맷팅 및 스크립팅<br>SSH 원격 접속                                                               |
+|   **통합 개발 환경**   |        Visual Studio IDE         | Visual Studio Professional  |      Winget       |                                                                        C / C++ | Windows App | Native Programing                                                                         |
+|                  |         JetBrains Rider          | JetBrains All Products Pack | JetBrains Toolbox |                                                                           C# / F# | Game Engine | .NET Backend                                                                           |
+|                  |       JetBrains RustRover        | JetBrains All Products Pack | JetBrains Toolbox |                                                                       Pure Rust | Rust Backend | System Programing                                                                       |
+|                  | JetBrains IntelliJ IDEA Ultimate | JetBrains All Products Pack | JetBrains Toolbox |                              Java / Kotlin | JVM Backend <br>Pure Python | Python Backend | Data Analysis | AI Model Training<br>JS / TS | Web Frontend                               |
+|  **IDE 설치 관리**   |        JetBrains Toolbox         |              -              |      Winget       |                                                                                             -                                                                                              |
+|   **LaTeX 엔진**   |             TeX Live             |              -              |       Scoop       |                                                                                             -                                                                                              |
+|  **데이터베이스 관리**   |             Navicat              |       Navicat Premium       |       Scoop       |                                                                                         종합 설계 및 관리                                                                                         |
+|                  |    JetBrains IDE 내장 DataGrip     | JetBrains All Products Pack |      Module       |                                                                                       개발 단계 조회 및 확인                                                                                        |
+|   **버전 관리 엔진**   |               Git                |              -              |       Scoop       |                                                                                             -                                                                                              |
+| **버전 관리 클라이언트**  |            GitKraken             |        GitKraken Pro        |       Scoop       |                                                                                     메인 레포지토리 / 브랜치 관리                                                                                      |
+|                  |     IDE 내장 및 VS Code 확장 Git      |              -              |      Module       |                                                                                   단순 커밋 / 푸시 및 수정 이력 확인                                                                                    |
+
+### UTILITY / EXTENTION
+
+---
+
+|        분류군        |        소프트웨어         |              라이선스              |   패키지 원본    |                            비고                            |
+| :---------------: | :------------------: | :----------------------------: | :---------: | :------------------------------------------------------: |
+| **디스크 복구 소프트웨어**  |       R-Studio       |       R-Studio Standard        |   Winget    |                            -                             |
+|   **터미널 에뮬레이터**   |       WezTerm        |               -                |    Scoop    |                            -                             |
+|   **CLI 유틸리티**    |         eza          |               -                |    Scoop    |                          ls 대체                           |
+|                   |         bat          |               -                |    Scoop    |                          cat 대체                          |
+|                   |         fzf          |               -                |    Scoop    |                       대화형 인터페이스 도구                       |
+|                   |        zoxide        |               -                |    Scoop    |                          cd 대체                           |
+|                   |       ripgrap        |               -                |    Scoop    |                          rg 대체                           |
+|                   |          fd          |               -                |    Scoop    |                         find 대체                          |
+|                   |        delta         |               -                |    Scoop    |                       git diff 대체                        |
+|                   |         dust         |               -                |    Scoop    |                          du 대체                           |
+|                   |        bottom        |               -                |    Scoop    |                       CLI용 작업 관리자                        |
+|  **터미널 커스터마이징**   |       Starship       |               -                |    Scoop    |                            -                             |
+|  **인라인 권한 부여자**   |        Gsudo         |               -                |    Scoop    | $PROFILE에 sudo 명칭으로 함수 등록<br>Windows 기본 개발자 기능 Sudo 비활성화 |
+|    **패키지 관리자**    |        Scoop         |               -                |   GitHub    |                            -                             |
+|   **IDE 설치 관리**   |  JetBrains Toolbox   |               -                |   Winget    |                            -                             |
+|                   |       Innounp        |               -                |    Scoop    |                            -                             |
+| **시스템 요약 정보 출력**  |      Fastfetch       |               -                |    Scoop    |                            -                             |
+|    **파일 관리자**     |    Directory Opus    |  Directory Opus Professional   |   Winget    |                            -                             |
+|   **드라이브 마운트**    |       RaiDrive       |     RaiDrive Professional      |   Winget    |                            -                             |
+|   **압축 파일 관리자**   |       BandiZip       |          BandiZip Pro          |    Scoop    |                            -                             |
+|                   |         7zip         |               -                |    Scoop    |                     Scoop 내부 패키지 관리용                     |
+|    **파일 복사기**     |       FastCopy       |               -                |    Scoop    |                    Directory Opus 연동                     |
+|    **파일 검색기**     |      Everything      |               -                |    Scoop    |                    Directory Opus 연동                     |
+|    **작업 관리자**     |   System Informer    |               -                |    Scoop    |                            -                             |
+| **하드웨어 진단 및 분석**  |       Hwinfo64       |               -                |    Scoop    |                            -                             |
+| **디스크 모니터링 및 진단** |  Crystal Disk Info   |               -                |    Scoop    |                            -                             |
+|    **운영체제 확장**    |      PowerToys       |               -                |    Scoop    |                            -                             |
+|  **시스템 커스터마이징**   |   Winaero Tweaker    |               -                |    Scoop    |                            -                             |
+|   **창 관리 프로그램**   |      WindowGrid      |               -                |   Winget    |                        격자 기반 창 관리                        |
+|                   |       AltSnap        |               -                |   Winget    |                        스냅 기능 편의성                         |
+|  **다크 모드 자동 전환**  |     AutoDarkMode     |               -                |    Scoop    |                            -                             |
+|    **마우스 제스처**    |   StrokesPlus.net    |               -                |    Scoop    |                            -                             |
+|   **클립보드 동기화**    |     ClipCascade      |               -                |   GitHub    |                      NAS 중심 P2S 방식                       |
+|  **P2P 파일 전송기**   |  Google QuickShare   |               -                |   Winget    |                            -                             |
+|  **입력 장치 에뮬레이터**  |    Unified Remote    |      Unified Remote Full       |   Winget    |                            -                             |
+|  **화면 녹화 프로그램**   |      OBS Studio      |               -                |    Scoop    |                            -                             |
+|     **캡처 도구**     |       Snipaste       |               -                |    Scoop    |                            -                             |
+|    **이미지 뷰어**     |      BandiView       |         BandiView Pro          |   Winget    |                            -                             |
+|   **미디어 플레이어**    |   PotPlayer Global   |               -                |   Winget    |                            -                             |
+|      **번역기**      |  DeepL Translation   | DeepL Translation Pro Ultimate |   Winget    |                            -                             |
+|    **문장 교정기**     |     DeepL Write      |    DeepL Write Pro Ultimate    |   Winget    |                            -                             |
+|    **문법 검사기**     |      Grammarly       |         Grammarly Pro          |    Scoop    |                            -                             |
+|                   | 바른한글 (구 부산대 맞춤법 검사기) |               -                | Vivaldi PWA |                            -                             |
+
+### LIFE STYLE / COMMUNICATION & NETWORK
+
+---
+
+|      분류군      |     소프트웨어      |          라이선스           |   패키지 원본    |                                                                비고                                                                |
+| :-----------: | :------------: | :---------------------: | :---------: | :------------------------------------------------------------------------------------------------------------------------------: |
+|  **웹 브라우저**   |    Vivaldi     |            -            |   Winget    | 내장 마우스 제스처 비활성화<br>DarkReader / AdGuard Browser Assistant / Global Speed / Bitwarden Extension<br>Winget을 통한 운영체제 기본 프로그램 통합 최적화 |
+| **인스턴트 메신저**  |    Discord     |      Discord Nitro      |    Scoop    |                                                                -                                                                 |
+|               |   KakaoTalk    |      TalkCloud 1TB      |    Scoop    |                                                 TalkCloud는 대화, 사진, 동영상 백업용으로만 사용                                                 |
+|               |     Slack      |        Slack Pro        |    Scoop    |                                                                -                                                                 |
+| **화상 통화 서비스** | Zoom Workplace | Zoom Workplace Business |    Scoop    |                                                                -                                                                 |
+|               |  Google Meet   |     Google AI Ultra     | Vivaldi PWA |                                                                -                                                                 |
+|    **메시지**    | Google Message |     Google AI Ultra     | Vivaldi PWA |                                                                -                                                                 |

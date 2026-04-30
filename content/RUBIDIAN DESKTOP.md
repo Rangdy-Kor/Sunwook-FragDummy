@@ -490,7 +490,7 @@ Utopia -.-> Rooms
 
 |      분류군      |           소프트웨어           |             라이선스              |      패키지 원본       |                   비고                    |
 | :-----------: | :-----------------------: | :---------------------------: | :---------------: | :-------------------------------------: |
-|  **워드프로세서**   |    Microsoft Word 2026    |     Microsoft 365 Premium     |     Official      |                    -                    |
+|  **워드프로세서**   |    Microsoft Word 2026    |     Microsoft 365 Premium     | Official Homepage |                    -                    |
 |               |    Hancom Hangul 2024     |          Hancom Docs          |     Homepage      |                    -                    |
 |  **프레젠테이션**   | Microsoft PowerPoint 2026 |     Microsoft 365 Premium     | Official Homepage |                    -                    |
 |  **스프레드시트**   |   Microsoft Excel 2026    |     Microsoft 365 Premium     | Official Homepage |                    -                    |
@@ -499,7 +499,7 @@ Utopia -.-> Rooms
 |  **협업 프로젝트**  |          Notion           |          Notion Plus          |       Scoop       |                    -                    |
 | **메일 클라이언트**  |          Outlook          |     Microsoft 365 Premium     | Official Homepage |                    -                    |
 | **클라우드 스토리지** |          DropBox          |    DropBox Essentials 3TB     |       Scoop       | 파일 공유 & 동기화, 오피스 작업용<br>파일 저장 및 백업은 NAS |
-|               |       Google Drive        |        Google AI ULTRA        |      Winget       |   갤러리 동기화, 외부 협업용<br>미디어는 NAS에 추가 백업    |
+|               |       Google Drive        |        Google AI Ultra        |      Winget       |   갤러리 동기화, 외부 협업용<br>미디어는 NAS에 추가 백업    |
 |  **AI 서비스**   |          ChatGPT          |          ChatGPT Pro          |      Winget       |                    -                    |
 |               |          Claude           |          Claude Max           |       Scoop       |                    -                    |
 |               |          Gemini           |        Google AI Ultra        |    Vivaldi PWA    |                    -                    |
@@ -524,23 +524,23 @@ Utopia -.-> Rooms
 
 ---
 
-|       분류군        |              소프트웨어               |            라이선스             |      패키지 원본       |                                                                                      비고                                                                                       |
-| :--------------: | :------------------------------: | :-------------------------: | :---------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|    **단순 메모장**    |             Notepads             |              -              |       Scoop       |                                                                                       -                                                                                       |
-|   **마크다운 편집기**   |              Typora              |         Typora EULA         |       Scoop       |                                                                               단일 파일 마크다운 파일 편집                                                                                |
-| **개인 지식 관리 시스템** |             Obsidian             |              -              |       Scoop       | 지식 관리 시스템 구축<br>Self-hosted Live Sync Plugin를 통해 NAS Container 동기화<br>Digital Garden Plugin를 통해 GitHub & Vercel 웹 게시<br>Obsidian-Remote NAS Container Package를 통해 외부 환경 웹 액세스 |
-|   **텍스트 편집기**    |            Notepad++             |              -              |       Scoop       |                                                                           대용량 텍스트 파일 분석 및 단순 텍스트 수정                                                                           |
-|    **코드 에디터**    |        Visual Studio Code        |              -              |       Scoop       |                                                        LaTeX 편집 (LaTeX Workshop Extension)<br>포맷팅 및 스크립팅<br>SSH 원격 접속                                                         |
-|   **통합 개발 환경**   |        Visual Studio IDE         | Visual Studio Professional  |      Winget       |                                                     ReSharper C++ Plugin<br> C / C++ | Windows App | Native Programing                                                      |
-|                  |         JetBrains Rider          | JetBrains All Products Pack | JetBrains Toolbox |                                                                    C# / F# | Game Engine | .NET Backend                                                                     |
-|                  |       JetBrains RustRover        | JetBrains All Products Pack | JetBrains Toolbox |                                                                Pure Rust | Rust Backend | System Programing                                                                 |
-|                  | JetBrains IntelliJ IDEA Ultimate | JetBrains All Products Pack | JetBrains Toolbox |                        Java / Kotlin | JVM Backend <br>Pure Python | Python Backend | Data Analysis | AI Model Training<br>JS / TS | Web Frontend                        |
-|   **LaTeX 엔진**   |             TeX Live             |              -              |       Scoop       |                                                                                       -                                                                                       |
-|  **데이터베이스 관리**   |             Navicat              |       Navicat Premium       |       Scoop       |                                                                                  종합 설계 및 관리                                                                                   |
-|                  |    JetBrains IDE 내장 DataGrip     | JetBrains All Products Pack |      Module       |                                                                                 개발 단계 조회 및 확인                                                                                 |
-|   **버전 관리 엔진**   |               Git                |              -              |       Scoop       |                                                                                       -                                                                                       |
-| **버전 관리 클라이언트**  |            GitKraken             |        GitKraken Pro        |       Scoop       |                                                                               메인 레포지토리 / 브랜치 관리                                                                               |
-|                  |     IDE 내장 및 VS Code 확장 Git      |              -              |      Module       |                                                                             단순 커밋 / 푸시 및 수정 이력 확인                                                                             |
+|       분류군        |              소프트웨어               |            라이선스             |      패키지 원본       |                                                                                             비고                                                                                             |
+| :--------------: | :------------------------------: | :-------------------------: | :---------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|    **단순 메모장**    |             Notepads             |              -              |       Scoop       |                                                                                             -                                                                                              |
+|   **마크다운 편집기**   |              Typora              |         Typora EULA         |       Scoop       |                                                                              단일 파일 마크다운 파일 편집 및 텍스트 기반 문서 작업                                                                               |
+| **개인 지식 관리 시스템** |             Obsidian             |              -              |       Scoop       | 지식 관리 시스템 구축<br>Self-hosted Live Sync Plugin를 통해 NAS Container 동기화<br>Quartz & Quartz Syncer Plugin과 GitHub & Vercel 를 통해 정적 웹 게시<br>Obsidian-Remote NAS Container Package를 통해 외부 환경 웹 액세스 |
+|   **텍스트 편집기**    |            Notepad++             |              -              |       Scoop       |                                                                                 대용량 텍스트 파일 분석 및 단순 텍스트 수정                                                                                  |
+|    **코드 에디터**    |        Visual Studio Code        |              -              |       Scoop       |                                                               LaTeX 편집 (LaTeX Workshop Extension)<br>포맷팅 및 스크립팅<br>SSH 원격 접속                                                               |
+|   **통합 개발 환경**   |        Visual Studio IDE         | Visual Studio Professional  |      Winget       |                                                            ReSharper C++ Plugin<br> C / C++ | Windows App | Native Programing                                                            |
+|                  |         JetBrains Rider          | JetBrains All Products Pack | JetBrains Toolbox |                                                                           C# / F# | Game Engine | .NET Backend                                                                           |
+|                  |       JetBrains RustRover        | JetBrains All Products Pack | JetBrains Toolbox |                                                                       Pure Rust | Rust Backend | System Programing                                                                       |
+|                  | JetBrains IntelliJ IDEA Ultimate | JetBrains All Products Pack | JetBrains Toolbox |                              Java / Kotlin | JVM Backend <br>Pure Python | Python Backend | Data Analysis | AI Model Training<br>JS / TS | Web Frontend                               |
+|   **LaTeX 엔진**   |             TeX Live             |              -              |       Scoop       |                                                                                             -                                                                                              |
+|  **데이터베이스 관리**   |             Navicat              |       Navicat Premium       |       Scoop       |                                                                                         종합 설계 및 관리                                                                                         |
+|                  |    JetBrains IDE 내장 DataGrip     | JetBrains All Products Pack |      Module       |                                                                                       개발 단계 조회 및 확인                                                                                        |
+|   **버전 관리 엔진**   |               Git                |              -              |       Scoop       |                                                                                             -                                                                                              |
+| **버전 관리 클라이언트**  |            GitKraken             |        GitKraken Pro        |       Scoop       |                                                                                     메인 레포지토리 / 브랜치 관리                                                                                      |
+|                  |     IDE 내장 및 VS Code 확장 Git      |              -              |      Module       |                                                                                   단순 커밋 / 푸시 및 수정 이력 확인                                                                                    |
 
 ### UTILITY / EXTENTION
 
@@ -595,7 +595,7 @@ Utopia -.-> Rooms
 |    **문법 검사기**     |        Grammarly        |         Grammarly Pro          |    Scoop    |                            -                             |
 |                   |  바른한글 (구 부산대 맞춤법 검사기)   |               -                | Vivaldi PWA |                            -                             |
 
-### LIFE STYLE / COMMUNICATION
+### LIFE STYLE / COMMUNICATION & NETWORK
 
 ---
 
